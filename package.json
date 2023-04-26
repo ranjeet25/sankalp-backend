@@ -4,8 +4,11 @@
     "description": "",
     "main": "server.js",
     "scripts": {
+      
+      "build":"npm install",
       "start":"node server.js"
     },
+    
 
   "dependencies": {
     "cors": "^2.8.5",
