@@ -14,7 +14,8 @@ app.use(
 
 // ******* MONGOOSED || MONGODB ***********
 
-const mongourl = process.env.DBURL;
+const mongourl =
+  "mongodb+srv://ranjeet25:admin@cluster0.imqkiy6.mongodb.net/sankalp?retryWrites=true&w=majority";
 
 mongoose
   .connect(mongourl)
